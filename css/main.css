@@ -1,0 +1,65 @@
+*{
+    color: #060c31;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Crete Round", serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.title{
+    letter-spacing: 3px;
+    line-height: 64px;
+    margin-top: 88px;
+    font-size: 58px;
+}
+
+.text{
+    font-size: 15px;
+    margin-top: 35px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: "Lato", sans-serif;
+}
+
+.button{
+    margin-top: 48px;
+    display: flex;
+    font-family: "Lato", sans-serif;
+}
+
+.button a{
+    padding: 18px 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.button a:first-child{
+    background: #233fe2;
+    color: #fff;
+}
+
+.button a:last-child{
+    border: 1px solid #ffb0b1;
+    margin-left: 20px;
+}
